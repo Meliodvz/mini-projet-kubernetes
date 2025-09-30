@@ -10,7 +10,6 @@ spec:
   resources:
     requests:
       storage: 10Gi
-  VolumeMode: Filesystem
   accessModes:
     - ReadWriteOnce
   storageClassName: manual

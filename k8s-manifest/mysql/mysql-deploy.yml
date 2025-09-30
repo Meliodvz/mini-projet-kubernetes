@@ -42,7 +42,7 @@ spec:
         - name: MYSQL_RANDOM_ROOT_PASSWORD
           value: "yes"
         ports:
-        - containerPorts: 3306
+        - containerPort: 3306
           name: mysql
         resources:
           requests:
@@ -56,5 +56,5 @@ spec:
           mountPath: /var/lib/mysql
       volumes:
       - name: mysql-persistent-storage
-        PersistentVolumeClaim:
-          claimName: mysql-pvc
+        hostPath:
+          path: /data/mysql
