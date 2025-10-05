@@ -1,4 +1,4 @@
-# Mini-projet: Mini-projet: Déployez Wordpress à l’aide de manifests
+# Mini-projet: Déployez Wordpress à l’aide de manifests
 
 ## Contexte
 Il s'agit de déployer wordpress à l'aide de manifests yaml que vous allez écrire et non pas avec helm,
